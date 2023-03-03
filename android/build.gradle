@@ -51,6 +51,12 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':capacitor-android')
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation files('C:\\VSProjects\\android\\projects\\demo-uhf_as\\libs\\IGLBarDecoder.jar')
+    implementation files('C:\\VSProjects\\android\\projects\\demo-uhf_as\\libs\\jxl.jar')
+    implementation files('C:\\VSProjects\\android\\projects\\demo-uhf_as\\libs\\xUtils-2.5.5.jar')
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:3.0.0-RC3'
+    implementation 'org.json:json:20220924'
+    implementation files('C:\\VSProjects\\android\\dlls\\cw-deviceapi20191022.jar')
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
