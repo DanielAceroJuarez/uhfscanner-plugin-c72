@@ -1,6 +1,6 @@
 # uhfscanner-plugin-c72
 
-UHFScanner ionic capacitor plugin
+UHFScanner Ionic Capacitor Plugin
 
 ## Install
 
