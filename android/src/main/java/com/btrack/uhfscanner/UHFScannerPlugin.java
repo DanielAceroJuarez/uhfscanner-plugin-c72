@@ -45,7 +45,9 @@ public class UHFScannerPlugin extends Plugin implements KeyEventCallback {
     @PluginMethod(returnType = PluginMethod.RETURN_CALLBACK)
     public void execute( PluginCall callbackContext) {
         String action = callbackContext.getString("action");
+        int power = callbackContext.getInt("power");
         if (action.equals("start")) {
+            mReader.setPower(power);
             this.mCallbackContext = callbackContext;
             loopFlag = true;
 

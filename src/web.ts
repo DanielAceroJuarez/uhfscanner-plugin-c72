@@ -11,7 +11,7 @@ export class UHFScannerPluginWeb extends WebPlugin implements UHFScannerPluginPl
     return options;
   }
 
-  async execute(options: { action: string }, callback: UHFScanneerCallback,): Promise<CallbackID> {
+  async execute(options: { action: string , power: number}, callback: UHFScanneerCallback,): Promise<CallbackID> {
     console.log('ECHO', options);
     callback(options.action,"test");
     return options.action;
