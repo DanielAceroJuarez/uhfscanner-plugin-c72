@@ -40,12 +40,12 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 ### execute(...)
 
 ```typescript
-execute(options: { action: string; }, callback: UHFScanneerCallback) => Promise<CallbackID>
+execute(options: { action: string; power: number; }, callback: UHFScanneerCallback) => Promise<CallbackID>
 ```
 
 | Param          | Type                                                                |
 | -------------- | ------------------------------------------------------------------- |
-| **`options`**  | <code>{ action: string; }</code>                                    |
+| **`options`**  | <code>{ action: string; power: number; }</code>                     |
 | **`callback`** | <code><a href="#uhfscanneercallback">UHFScanneerCallback</a></code> |
 
 **Returns:** <code>Promise&lt;string&gt;</code>
