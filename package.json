@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielAceroJuarez/UHFScannerPlugin.git"
+    "url": "git+https://github.com/DanielAceroJuarez/uhfscanner-plugin-c72.git"
   },
   "bugs": {
-    "url": "https://github.com/DanielAceroJuarez/UHFScannerPlugin/issues"
+    "url": "https://github.com/DanielAceroJuarez/uhfscanner-plugin-c72/issues"
   },
   "keywords": [
     "capacitor",

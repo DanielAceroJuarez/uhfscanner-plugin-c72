@@ -28,6 +28,9 @@ npx cap sync
 echo(options: { value: string; }) => Promise<{ value: string; }>
 ```
 
+**action:** start/stop
+**power:**  0-25
+
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ value: string; }</code> |
@@ -42,6 +45,7 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 ```typescript
 execute(options: { action: string; power: number; }, callback: UHFScanneerCallback) => Promise<CallbackID>
 ```
+
 
 | Param          | Type                                                                |
 | -------------- | ------------------------------------------------------------------- |
